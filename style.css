@@ -35,7 +35,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    margin: 60px auto;
+    margin: 120px auto;
     max-width: 737px;
     background-color: var(--color-white);
     border-radius: 20px;
@@ -80,8 +80,13 @@ h2 {
     margin: 33px 0;
 }
 
+.nutrition-desc {
+    margin-bottom: 32px;
+}
+
 li {
     list-style-position: inside;
+    line-height: 1.5rem;
 }
 
 .preptime li::marker {
@@ -94,6 +99,7 @@ li::marker {
 
 ul {
    padding-left: 8px;
+   color: var(--color-dark-charcoal);
 }
 
 ul li {
@@ -102,4 +108,39 @@ ul li {
 
 span {
     font-weight: 600;
+}
+
+.table {
+    padding: 0 33px;
+}
+
+.sub-table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-separation {
+    margin: 18px 0;
+}
+
+@media screen and (max-width: 375px) {
+    #recipe-img {
+        border-radius: 0px;
+    }
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+
+    h1, .overview, .preptime, .ingredients, .instructions, .nutrition {
+        padding: 0 20px;
+    }
+
+    .preptime {
+        padding: 20px;
+    }
+
+    .table {
+        padding-bottom: 40px;
+    }
 }

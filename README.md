@@ -19,10 +19,10 @@ This is my first complete web page project. Since we don't have the Figma for fr
 ### What I learned
 
 This project was a nice transition from what I already have learned with the previous ones, and the first where I encounter some difficulties:
-- set space between the li bullets and the text
-- the kind of table at the bottom
+- set space between the ul or ol li bullets and the text
+- the kind of table at the bottom...
 
-
+Feel free to help me on these parts ! Thank you !
 
 ## Author
 
