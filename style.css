@@ -29,7 +29,7 @@ body {
     background-color: var(--color-eggshell);
     font-size: 16px;
     font-family: 'Outfit', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .container {
@@ -50,6 +50,7 @@ h1 {
     color: var(--color-dark-charcoal);
     margin: 40px 0 28px 0;
     font-size: 2.5rem;
+    font-weight: 400;
 }
 
 h1, h2 {
