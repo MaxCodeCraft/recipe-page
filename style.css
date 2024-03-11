@@ -105,6 +105,19 @@ ul {
 
 ul li {
     list-style-type: square;
+    margin-bottom: 15px;
+}
+
+ul li:last-child {
+    margin-bottom: 0px;
+}
+
+ol li {
+    margin-bottom: 15px;
+}
+
+ol li:last-child {
+    margin-bottom: 0px;
 }
 
 ul > li span {
