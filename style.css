@@ -85,23 +85,23 @@ h2 {
     margin-bottom: 32px;
 }
 
-li {
-    list-style-position: inside;
-    line-height: 1.5rem;
-    display: list-item;
+ul {
+   padding-left: 8px;
+   color: var(--color-dark-charcoal);
 }
 
-.preptime li::marker {
-    color: var(--color-dark-raspberry);
+li {
+    padding: 0 20px;
+    margin: 0 15px;
+    line-height: 1.5rem;
 }
 
 li::marker {
     color: var(--color-nutmeg);
 }
 
-ul {
-   padding-left: 8px;
-   color: var(--color-dark-charcoal);
+.preptime li::marker {
+    color: var(--color-dark-raspberry);
 }
 
 ul li {
@@ -115,15 +115,11 @@ ul li:last-child {
 
 ol li {
     margin-bottom: 15px;
+    margin: 0 0 15px 25px;
 }
 
 ol li:last-child {
     margin-bottom: 0px;
-}
-
-ul > li span {
-    position: relative;
-    left: 20px;;
 }
 
 .table {
