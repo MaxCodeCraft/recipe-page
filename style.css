@@ -87,6 +87,7 @@ h2 {
 li {
     list-style-position: inside;
     line-height: 1.5rem;
+    display: list-item;
 }
 
 .preptime li::marker {
@@ -106,8 +107,9 @@ ul li {
     list-style-type: square;
 }
 
-span {
-    font-weight: 600;
+ul > li span {
+    position: relative;
+    left: 20px;;
 }
 
 .table {
